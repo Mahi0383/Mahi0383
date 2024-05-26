@@ -1,0 +1,117 @@
+*{
+margin: 0;
+padding: 0;    
+}
+body{
+font-family: "Roboto", sans-serif;
+margin-top: 10px;    
+}
+.navbar{
+border-bottom: 1px solid black;
+gap: 6px;
+padding: 6px;
+justify-content: space-between;
+display: flex;
+
+}
+h1{
+color: blueviolet;
+margin-left: 10px;  
+}
+.nav-2{
+border: 1px solid black;
+width: 55%;
+border-radius: 25px;
+align-items: center;
+gap: 5px;
+padding: 5px;
+display: flex;    
+}
+.nav-2 input{
+width: 100%;
+border: none;    
+}
+.nav-2 input:focus{
+outline: none;    
+}
+.nav-3{
+display: flex;
+gap: 5px;
+padding: 5px;
+justify-content: space-between;
+align-items: center;
+margin-right: 10px;
+}
+.categories{
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid black;
+padding: 5px;
+}
+.categories p{
+ background-color: blueviolet;
+ border-radius: 25px;
+ padding: 5px;
+}
+.img{
+width: 100%;    
+}
+.recommended{
+margin-left: 10px;
+padding: 5px;   
+}
+.recommended p{
+margin-left: 10px;
+padding: 5px;    
+}
+h2{
+margin-left: 5px;
+padding: 5px;    
+}
+.recommended-container{
+display: flex;
+flex-wrap: wrap;    
+}
+.recommended-card{
+justify-content: space-between;
+align-items: center;    
+}
+.recommended-card img{
+width: 80%;
+margin-right: 5%;
+gap: 10px;    
+}
+.tpoics{
+height: 40vh;    
+}
+.topics-course{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;    
+}
+.topics-course p{
+border: 2px solid grey; 
+flex-grow: 1; 
+flex-basis: 30%;
+background-color: darkorange;
+text-align: center;
+justify-content: space-between;  
+}
+.footer{
+    margin-top: 3%;
+color: white;
+background-color: black;
+height: 40vh;    
+}
+.footer-items{
+display: flex;
+gap: 30px;
+padding: 30px;
+}
+.footer-title{
+color: white;
+display: flex; 
+align-items: center;
+justify-content: space-between;
+padding: 10px;   
+}
